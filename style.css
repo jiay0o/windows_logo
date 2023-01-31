@@ -1,0 +1,51 @@
+body {
+    background-color: #000000;
+}
+
+/* Frame 1 */
+div {
+    position: relative;
+    width: 610px;
+    height: 619px;
+    background: #FFFFFF;
+}
+
+/* red-box */
+.red-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 205px;
+    background: #F25022;
+}
+
+/* green-box */
+.green-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 310px;
+    top: 205px;
+    background: #7FBA00;
+}
+
+/* blue-box */
+.blue-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 200px;
+    top: 315px;
+    background: #00A4EF;
+}
+
+/* yellow-box */
+.yellow-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 310px;
+    top: 315px;
+    background: #FFB900;
+}
