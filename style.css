@@ -2,50 +2,38 @@ body {
     background-color: #000000;
 }
 
-/* Frame 1 */
-div {
-    position: relative;
-    width: 610px;
-    height: 619px;
+.windows-logo {
+    display: block;
+    width: 300px;
+    height: 300px;
+    padding: 200px 100px 100px 200px;
     background: #FFFFFF;
 }
 
-/* red-box */
 .red-box {
-    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 100px;
-    left: 200px;
-    top: 205px;
     background: #F25022;
 }
 
-/* green-box */
 .green-box {
-    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 100px;
-    left: 310px;
-    top: 205px;
     background: #7FBA00;
 }
 
-/* blue-box */
 .blue-box {
-    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 100px;
-    left: 200px;
-    top: 315px;
     background: #00A4EF;
 }
 
-/* yellow-box */
 .yellow-box {
-    position: absolute;
+    display: inline-block;
     width: 100px;
     height: 100px;
-    left: 310px;
-    top: 315px;
     background: #FFB900;
 }
