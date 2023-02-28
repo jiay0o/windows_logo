@@ -1,39 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #000000;
 }
 
 .windows-logo {
     display: block;
-    width: 300px;
-    height: 300px;
+    width: 600px;
+    height: 600px;
     padding: 200px 100px 100px 200px;
     background: #FFFFFF;
 }
 
 .red-box {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
     background: #F25022;
 }
 
 .green-box {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
     background: #7FBA00;
 }
 
 .blue-box {
-    display: inline-block;
-    width: 100px;
-    height: 100px;
     background: #00A4EF;
 }
 
 .yellow-box {
+    background: #FFB900;
+}
+
+.red-box .green-box .blue-box .yellow-box {
     display: inline-block;
     width: 100px;
     height: 100px;
-    background: #FFB900;
+    margin: 2px;
 }
